@@ -295,7 +295,7 @@ The following screenshots document the project and its validation.
 
 ### Failed Logon Results
 
-![Failed Logon Results](screenshots/failed_logon.png)
+![Failed Logon Results](screenshots/Failed_logon.png)
 
 ### Password Spraying Detection Results
 
@@ -328,12 +328,10 @@ splunk-password-spraying-detection/
 │
 ├── screenshots/
 │   ├── windows_event_4625.png
-│   ├── failed_logon_results.png
+│   ├── Failed_logon.png
 │   ├── password_spraying_detection.png
 │   ├── alert_configuration.png
-│   └── dashboard.png
-│
-└
+│   └── Dashboard.png
 ```
 
 ---
