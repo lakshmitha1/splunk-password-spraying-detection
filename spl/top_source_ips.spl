@@ -1,0 +1,9 @@
+index=main sourcetype="XmlWinEventLog:Security"
+| rex field=_raw "<EventID>(?<event_id>\d+)</EventID>"
+| search event_id=4625
+| rex field=_raw "<Data Name='IpAddress'>(?<src_ip>[^<]*)</Data>"
+| where isnotnull(src_ip)
+    AND src_ip!="-"
+    AND src_ip!="127.0.0.1"
+| stats count AS failed_attempts BY src_ip
+| sort - failed_attempts
