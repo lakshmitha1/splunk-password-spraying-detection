@@ -295,7 +295,7 @@ The following screenshots document the project and its validation.
 
 ### Failed Logon Results
 
-![Failed Logon Results](screenshots/Failed_logon.png)
+![Failed Logon Results](screenshots/Failed_logons.png)
 
 ### Password Spraying Detection Results
 
