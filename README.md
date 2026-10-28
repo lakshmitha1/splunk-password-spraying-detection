@@ -308,7 +308,7 @@ The following screenshots document the project and its validation.
 
 ### SOC Authentication Monitoring Dashboard
 
-![SOC Authentication Monitoring Dashboard](screenshots/dashboard.png)
+![SOC Authentication Monitoring Dashboard](screenshots/Dashboard.png)
 
 *Ensure the corresponding image files are uploaded to the `screenshots/` directory. GitHub will display the images when the filenames and paths match.*
 
